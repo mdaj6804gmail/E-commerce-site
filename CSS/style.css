@@ -29,13 +29,10 @@
 }
 
 
-.logo a{  
-    @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-    body {
-    }
-    
-    p {
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+    .logo a{  
+  
         background-color: #efefef;
       margin: 40px auto;
       font-family: 'Ubuntu', sans-serif;
