@@ -330,7 +330,7 @@
 
 
 .productBox{
-    width: 250px;
+    width: 270px;
     height: 330px;
     display: flex;
     justify-content: center;
@@ -338,7 +338,10 @@
     flex-direction: column;
     border-radius: 8px;
     position: relative;
-    margin: 10px 30px
+    margin: 10px 30px;
+    position: relative;
+    margin-top: 25px;
+   
 
 }
 .productBox img{ height: 180px;}
@@ -351,17 +354,27 @@
 
 
 }
-.productBox a{ color: #2c2c2c;
-    font-family: poppins;
-    font-size: 1rem;
 
+  
+
+
+.BuyBtn{ width:110px;
+background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+padding:10px 15px ;
+border-radius: 20px;
+text-align: center;
+color: #FFFF;
+font-size: 20px;
+font-family: poppins;
+
+position: absolute;
+top: 306px;
+visibility: hidden;
 
 }
 
-.BuyBtn{}
-
-
-
+.productBox:hover{ box-shadow: 0 0 10px 5px   #E6E6E6 ;}
+.productBox:hover .BuyBtn{ visibility: visible;}
 
 
 
