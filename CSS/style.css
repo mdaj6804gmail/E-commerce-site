@@ -377,16 +377,6 @@ visibility: hidden;
 .productBox:hover .BuyBtn{ visibility: visible;}
 
 
-@media(max-width:750px){
-    .productsection{width:60%;}
-
-
-
-}
-
-
-
-
 
         /* media quary start */
 
@@ -400,15 +390,13 @@ visibility: hidden;
 
         /* teblet view */
         @media (min-width:769px) and (max-width:1023px){
-            section header ul li button {
-                background-color:rgb(240, 6, 115);
-              
+            .productsection{width:70%;}
 
 
             }
 
 
-        }
+        
 
 
 
@@ -416,14 +404,11 @@ visibility: hidden;
 
 
                  /* mobile view */
-                 @media (max-width:768px){
-                    section .main .searchbox #search{
-                        width: 95%;
-                        margin-left: 9px;
+                 @media (max-width:300px){
+                    .productsection{width:35%;}
+                    .productBox img{height:100px ;}
 
-
-
-
+                    }
 
 
 
