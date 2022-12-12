@@ -377,7 +377,12 @@ visibility: hidden;
 .productBox:hover .BuyBtn{ visibility: visible;}
 
 
+@media(max-width:750px){
+    .productsection{width:60%;}
 
+
+
+}
 
 
 
