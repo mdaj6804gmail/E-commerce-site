@@ -207,10 +207,11 @@
     position: fixed;
     top: 50%;
     left: 47px;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     border-radius: 20px;
     background-color:#FFFFFF ;
     box-shadow:  0 0 10px 5px   #E6E6E6 ;
+    z-index: 1;
 
 
 }
@@ -275,8 +276,9 @@
     top: 8px;
     left: 8px;
 }
-
-
+.gitH{ background-color:#3f7bc9d2;width:40px ;height:40px; position: relative;margin: 0 auto;border-radius: 50%; transition:.5s ;}
+.fa-github{color: rgb(255, 255, 255); position: absolute; top:6px;} 
+.gitH:hover{background-color: #009bfc;}
 
 /* ==================================================================================================================
 
@@ -328,7 +330,11 @@
 
 }
 
+.productBox a{color: #2c2c2c;
+    font-family: poppins;
+    font-size: 1rem;
 
+}
 .productBox{
     width: 270px;
     height: 330px;
@@ -344,6 +350,8 @@
    
 
 }
+
+.productBox a:last-child{color: #FFFF;}
 .productBox img{ height: 180px;}
 
 
@@ -356,7 +364,7 @@
 }
 
   
-
+/* #Buy{ color: #FFFF;} */
 
 .BuyBtn{ width:110px;
 background: linear-gradient(120deg, #6b60ec 20%, #a166f4 100%);
@@ -378,6 +386,78 @@ visibility: hidden;
 .productBox:hover .BuyBtn{ visibility: visible; background-color:red;}
 /* 
 .productBox .BuyBtn:hover{background-color: linear-gradient(to right, #fc5c7d, #6a82fb); } */
+
+ 
+
+/* ============================================
+              Section 3 Start 
+              ============================================*/
+
+
+
+.about{ display: flex;
+width: 85%;
+margin: 50px auto;
+justify-content:space-around;
+align-items: center;
+padding: 30px;
+
+}
+
+.aboutBox{width: 40%;
+    font-family: myriad pro;
+
+}
+.aboutBox h1{color: #333333;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0px;
+
+}
+
+.aboutBox h4{
+    color: #333333;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+.aboutBox p{ 
+    color: #bdbdbd;
+    letter-spacing: .5px;
+    font-size: 1rem;
+}
+
+
+.aboutBox img{width: 100%;
+            height: 100%;
+            object-fit: contain;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         /* media quary start */
