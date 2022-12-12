@@ -388,6 +388,41 @@ visibility: hidden;
 
 
 
+        /* media quary start */
+
+
+        /* Desktop view */
+        @media ( min-width:1024px){
+
+
+        }
+
+
+        /* teblet view */
+        @media (min-width:769px) and (max-width:1023px){
+            section header ul li button {
+                background-color:rgb(240, 6, 115);
+              
+
+
+            }
+
+
+        }
+
+
+
+
+
+
+                 /* mobile view */
+                 @media (max-width:768px){
+                    section .main .searchbox #search{
+                        width: 95%;
+                        margin-left: 9px;
+
+
+
 
 
 
