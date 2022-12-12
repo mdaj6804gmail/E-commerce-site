@@ -209,7 +209,8 @@
     left: 47px;
     transform: translate(-50%);
     border-radius: 20px;
-    background-color: rgba(0,0,0,0.2);
+    background-color:#FFFFFF ;
+    box-shadow:  0 0 10px 5px   #E6E6E6 ;
 
 
 }
@@ -232,10 +233,10 @@
 
 } */
 
-.fa1{
+.fac{
     width: 40px;
     height: 40px;
-    background-color:#646566 ;
+    background-color:#5895d3 ;
     position: relative;
     margin: 9px auto;
     border-radius: 50%;
@@ -248,8 +249,29 @@
     left: 9px;
     color:#FFFFFF ;
     width: 100%;
+    text-shadow: 0 0 10px 5px #E1E8ED;
 
     
 
 }
-.fa1:hover{background-color:#0f5dfa;}
+.fac:hover{background-color:#0f5dfa;}
+
+.twi{ width: 40px;
+    height: 40px;
+    background-color:#319ee2c7 ;
+    position: relative;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+
+}
+.twi:hover{background-color:#009bfc ;}
+.twi .fa-twitter{
+    position: absolute;
+    width: 100%;
+    color:#Ffff;
+    font-size: 25px;
+    top: 8px;
+    left: 8px;
+}
