@@ -404,9 +404,12 @@ visibility: hidden;
 
 
                  /* mobile view */
-                 @media (max-width:300px){
+                 @media (max-width:700px){
                     .productsection{width:35%;}
                     .productBox img{height:100px ;}
+                    .productsection h3{ font-size:1rem ;}
+                    .productBox{height:220px ;}
+
 
                     }
 
