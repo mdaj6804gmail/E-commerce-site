@@ -492,7 +492,7 @@ margin-top: 100px !important;
     
     
 }
-/* .NotificationInput input::placeholder{ font-size:17px ; */
+.NotificationInput input::placeholder{ font-size:17px ;}
    
 
 
@@ -511,14 +511,12 @@ margin-top: 100px !important;
     box-shadow: 0 0 10px 5px   #E6E6E6 ;
     font-size: 1rem;
 
-
-
-
-
-
 }
 
+.NotificationButton:hover{ background-color: #6b60ec;
+    transition: all ease .5s;
 
+}
 
 
 
