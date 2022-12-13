@@ -573,22 +573,77 @@ footer p{
                         
                     }                 
 
+                        .section1 img {
+                         width: 140px;
+                     }
+
+                     .section1Button h1, h2 {font-size:20px;
+                        letter-spacing: 2px;
+                        line-height: 22px;
+
+
+                     }
+                     
+.section1Button .btn1 {
+    font-size:10px;
+    width: 70px;
+height: 20px;
+margin-top: 6px;
+
+}
+.searchArea {
+  
+  right:15px;
+  top: 50px;
+  width: 128px;
+  height: 30px;
+
+}
+
+.iconArea {
+ 
+  left: 9px;
+
+}
+
+
+.fac,.twi,.gitH {
+  width: 25px;
+  height: 25px;}
+ .iconArea a { font-size: 15px;margin: 11px 7px;}
+ .twi .fa-twitter {
+ 
+  font-size: 18px;
+  top: 5px;
+  left: 4px;
+}
+
+.fa-facebook-f {
+    position: absolute;
+    top: 7px;
+    left: 8px;}
 
 
 
 
 
-                    .productsection{width:35%;}
-                    .productBox img{height:100px ;}
+
+
+                    .productsection{width:75%;padding: 0px 0px;}
+                    .productBox img{height:50px ;}
                     .productsection h3{ font-size:1rem ;}
-                    .productBox{height:175px ;padding: 15px;}
+                    .productBox{height:100px ;padding: 12px;
+                margin: 7px 5px; width:99px ;
+                    
+                    
+                    }
                     .BuyBtn{top:195px ;width: 88px;font-size: 13px;padding: 5px 10px;}
                     .productBox p{font-size:11px ;text-align: center;}
 
-                    }
+                    
 
 
-
+                 }
 
 
 
