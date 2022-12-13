@@ -629,7 +629,7 @@ margin-top: 6px;
 
 
 
-                    .productsection{width:75%;padding: 0px 0px;margin:20px auto;}
+                    .productsection{width:75%;padding: 0px 0px;margin:20px auto; align-items: center; justify-content: center;}
                     .productBox img{height:50px ;}
                     .productsection h3{ font-size:1rem ;}
                     .productBox{height:100px ;padding: 12px;
