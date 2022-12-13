@@ -565,6 +565,19 @@ footer p{
 
                  /* mobile view */
                  @media (max-width:790px){
+                    /* "container,  LOGO,  searchArea, section1 img , text, button */
+
+                    .logo a{font-size: 26px;
+                        text-shadow:none;
+                        margin-left: -71px;
+                        
+                    }                 
+
+
+
+
+
+
                     .productsection{width:35%;}
                     .productBox img{height:100px ;}
                     .productsection h3{ font-size:1rem ;}
